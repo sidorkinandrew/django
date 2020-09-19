@@ -25,7 +25,9 @@ SECRET_KEY = 'kjrfe$)!r=@g0x$sf)3oaj8%x=k84p81q(bu68f7px(tpku^^m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost',
+                 'djangosidorkin.us.aldryn.io',
+                 'pythondev.ml']
 
 
 # Application definition
