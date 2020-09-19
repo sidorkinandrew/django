@@ -1,3 +1,8 @@
-.divio
+# Python
 *.pyc
-*.sqlite3
+*.pyo
+db.sqlite3
+
+# Divio
+.divio
+/data.tar.gz
