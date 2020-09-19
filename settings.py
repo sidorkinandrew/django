@@ -19,6 +19,7 @@ INSTALLED_ADDONS = [
     'aldryn-addons',
     'aldryn-django',
     'aldryn-sso',
+    'aldryn-celery',
     'aldryn-django-rest-framework',
     # </INSTALLED_ADDONS>
 ]
