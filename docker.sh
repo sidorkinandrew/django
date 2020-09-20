@@ -6,3 +6,4 @@ sudo apt-get update -y
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 sudo docker run hello-world
 sudo apt-get install docker-compose -y
+# https://docs.docker.com/compose/django/
