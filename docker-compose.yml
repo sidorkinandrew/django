@@ -27,5 +27,6 @@ services:
     # the URL 'postgres' will point to the application's db service
     links:
       - "db:postgres"
-    depends_on: db
+    depends_on:
+      - db
     env_file: .env-local
