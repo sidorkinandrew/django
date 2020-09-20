@@ -14,10 +14,16 @@ git remote add origin ssh://git@git.domain.tld/repository.git
 git commit -a -m "modified comment"
 git push origin master
 # 
-ssh-keygen
+ssh-keygen -b 4096
+# ssh-keygen -p  #remove passphrase
+eval $(ssh-agent -s)
+chmod 400 ./.ssh/id_rsa
+ssh-add ./.ssh/id_rsa
+
 git branch -a
 git checkout -b develop
-git checkout master
 git branch
 
+git checkout master
 git merge develop --no-ff
+
