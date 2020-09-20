@@ -29,3 +29,4 @@ git merge develop --no-ff
 
 
 docker-compose up -e POSTGRES_PASSWORD=postgres
+docker-compose run web django-admin startproject djangoexample .
