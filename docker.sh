@@ -7,4 +7,12 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 sudo docker run hello-world
 sudo apt-get install docker-compose -y
 # https://docs.docker.com/compose/django/
+sudo apt install git -y
+git init
+git add .
+git remote add origin ssh://git@git.domain.tld/repository.git
+git push origin master
+# 
+ssh-keygen
+
 # git commit -a -m "modified docker"
