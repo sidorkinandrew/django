@@ -11,8 +11,11 @@ sudo apt install git -y
 git init
 git add .
 git remote add origin ssh://git@git.domain.tld/repository.git
+git commit -a -m "modified comment"
 git push origin master
 # 
 ssh-keygen
-
-# git commit -a -m "modified docker"
+git branch -a
+git checkout -b develop
+git checkout master
+git branch 
