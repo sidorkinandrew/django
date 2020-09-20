@@ -18,4 +18,6 @@ ssh-keygen
 git branch -a
 git checkout -b develop
 git checkout master
-git branch 
+git branch
+
+git merge develop --no-ff
