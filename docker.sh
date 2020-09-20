@@ -27,3 +27,5 @@ git branch
 git checkout master
 git merge develop --no-ff
 
+
+docker-compose up -e POSTGRES_PASSWORD=postgres
