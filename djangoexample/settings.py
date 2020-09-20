@@ -27,7 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['localhost',
                  '127.0.0.1',
-                 'pythondev.ml']
+                 'pythondev.ml',
+                 '149.28.225.176']
 
 
 # Application definition
